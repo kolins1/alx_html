@@ -1,0 +1,332 @@
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background: transparent;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('images/Object.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+.cta-button {
+    background-color: #a840f8;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #8433c6;
+}
+
+/* Learn from the pros section */
+.learn {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.learn h2 {
+    font-size: 2rem;
+    color: #6c63ff;
+    margin-bottom: 20px;
+}
+
+.learn-highlight {
+    color: #ff0077;
+    font-weight: 700;
+}
+
+/* Profile cards section */
+.profiles {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 100px;
+    background-color: #222;
+}
+
+.profile-card {
+    text-align: center;
+    width: 20%;
+    color: #fff;
+}
+
+.profile-card img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.profile-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.profile-card p {
+    font-size: 1rem;
+    color: #bbb;
+}
+.testimonial-section {
+    background-color: #c474f2; /* The purple background color */
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensure it takes full width */
+}
+
+.testimonial-container {
+    background-color: #c474f2; /* Ensures the container is the same color */
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.testimonial-text {
+    text-align: left;
+}
+
+.quote {
+    font-size: 1.1rem;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.title {
+    font-size: 0.9rem;
+    color: #dcdcdc;
+    font-style: italic;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.tutorials {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tutorial-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 23%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.tutorial-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tutorial-info {
+    padding: 15px;
+}
+
+.tutorial-info h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.tutorial-info p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.tutorial-info .author {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.tutorial-info .rating {
+    color: #f39c12;
+}
+
+.tutorial-info .time {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.play-button {
+    display: inline-block;
+    margin: 15px auto;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.membership-section {
+    background-color: #0f121c;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.membership-section h1 {
+    color: #b08ef2;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.feature-card {
+    text-align: center;
+    width: 23%;
+}
+
+.feature-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.feature-card h2 {
+    font-size: 18px;
+    color: #d8d8d8;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 14px;
+    color: #999;
+    line-height: 1.5;
+}
+
+.register-button {
+    display: inline-block;
+    background-color: #6c5ce7;
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #4b45c7;
+}
